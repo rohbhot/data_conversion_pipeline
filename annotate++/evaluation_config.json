@@ -1,0 +1,11 @@
+{
+    "framework" : "nanodet",
+    "mode" : "auto_annotate",
+    "model_config" : {
+        "model_path" : "/mnt/2tb/General/Gaurav_YRB/nanodet/Weight/nanodet-EfficientNet-Lite2_512.ckpt",
+        "config_path" : "/mnt/2tb/General/Gaurav_YRB/nanodet/config/legacy_v0.x_configs/EfficientNet-Lite/nanodet-EfficientNet-Lite2_512.yml"
+	},
+    "dataset_path" : "/mnt/2tb/customer_eval_data/IMAGES_NANO",
+    "output_path" : "/mnt/2tb/customer_eval_data/IMAGES_NANO/OP",
+    "thresholds" : [1.1, 1.1, 0.4, 0.4, 1.1, 0.4, 1.1, 0.4, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1, 1.1]
+}
