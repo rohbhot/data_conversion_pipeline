@@ -1,0 +1,11 @@
+{
+    "framework" : "nanodet",
+    "mode" : "evaluate",
+    "model_config" : {
+        "model_path" : "/mnt/2tb/General/Rahul/data/model/model_best/model_best.ckpt",
+        "config_path" : "/mnt/2tb/General/Rahul/data/model/model_best/nanodet-plus-Rahul.yml"
+	},
+    "dataset_path" : "/mnt/2tb/General/Rahul/data/test/testimages/",
+    "output_path" : "/mnt/2tb/General/Rahul/data/test/outputs/",
+    "thresholds" : [0.35, 0.35]
+}
