@@ -1,0 +1,6 @@
+lxml
+tqdm
+numpy
+opencv-python
+Pillow
+pandas
